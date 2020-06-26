@@ -1,0 +1,62 @@
+
+/*=========[CSS ADDED By Rahul]================*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #888888;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #888888;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #888888;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #888888;
+}
+
+body{ font-family: 'Roboto', sans-serif;}
+.container { max-width:1200px;}
+
+body{ background: url(../img/main_bg_img_01.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+  .login_wrap{margin: 50px 0;}
+
+  .login_form_wrap{display: flex;}
+  .login_left{background: url(../img/left_bg_img_03.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; flex:1;padding: 350px 0;}
+  .login_right_wrap{background-color: #fff; padding: 0; flex: 1; display: flex;}
+  .login_right{margin: auto;    max-width: 373px; width: 100%;}
+
+  .login_left_inner{max-width: 373px;  margin: auto;}
+
+  .login_left h2, .login_left h4, .login_left p{padding-left: 0;}
+  .login_left h2 img{width: 100%;}
+  .login_left h4{font-size: 32px; color: #fff;line-height: 1.406;}
+  .login_left p{line-height: 1.636;color: #fff;font-size: 22px;max-width: 500px; width: 100%;}
+
+  .login_right h3{ font-size: 26px;color: #2d2d2d;    margin-bottom: 45px;}
+  .login_right h3 span{width: 7px; height: 20px;    display: inline-block; background: #7c2d2f;    margin: 0 3px 0 0px;}
+  .login_right p{font-size: 18px;color: rgb(125, 125, 125);line-height: 1.611;    margin-bottom: 30px;}
+  .login_right p span a{color: #7c2d2f;}
+
+  .login_right form input[type="text"],  .login_right form input[type="password"],  .login_right form input[type="email"],  .login_right form input[type="name"]{box-shadow: none; border-radius: 2px; font-size: 16px;    height: 46px;margin-bottom: 26px;}
+  .login_right form input:focus{box-shadow: none; border: 1px solid #7c2d2f;}
+
+  .submit_wrap{display: flex;    justify-content: space-between;}
+  .submit_wrap .login{ border-style: solid;border-width: 1px; border-color:#7c2d2f;border-radius: 4px;
+    background-color:#7c2d2f; width: 142px; padding: 11px 0; text-align: center; font-size: 20px; color: #fff;}
+  .submit_wrap .login:hover{text-decoration: none; background-color: #7c2d2f; color: #000; transition:0.5ms; border: 1px solid #7c2d2f;}
+  .submit_wrap .login:focus{outline: 0; text-decoration: none;}
+  .submit_wrap .forgot{font-size: 18px; color: #7c2d2f;padding: 14px 0 7px;}
+  .form-horizontal .form-group{margin-left: 0px; margin-right: 0px;}
+
+
+
+

@@ -1,0 +1,41 @@
+/* Portrait */
+@media only screen and (min-width: 768px)  and (max-width: 1024px)  and (orientation: portrait)  {
+  .login_form_wrap { display: block;}
+  .login_right_wrap{display: block;}
+  .login_left{    padding: 180px 0 150px;}
+  .login_right{    padding-bottom: 30px;}
+}
+
+/* Landscape */
+@media only screen  and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+   .login_left h2, .login_left h4, .login_left p{    padding-left: 20px; padding-right: 20px;}
+   .login_left h2 img{width: 100%;}
+}
+
+/* Tablet */
+@media only screen  and (min-width: 600px) and (max-width: 800px){
+ /* .login_right{    padding: 0 10px;}*/
+  .login_right h3{font-size: 26px;}
+}
+
+
+
+@media screen and (max-width: 767px){
+  .login_form_wrap { display: block;}
+  .login_right_wrap{display: block;}
+  .login_left h2 img{width: 90%;}
+  .login_left h2, .login_left h4, .login_left p{padding-left: 10px;}
+  .login_left h4{font-size: 28px;}
+  .login_left p{font-size: 16px;}
+  .login_left{padding: 5px 0;}
+  .login_right{ padding: 20px;}
+  .login_right h3{    font-size: 22px;margin-bottom: 25px;}
+  .login_right p{    font-size: 16px;}
+}
+
+@media screen and (max-width: 320px){
+	.login_right{ padding: 0 5px 20px;}
+	.login_right h3{ font-size: 21px;}
+	.submit_wrap .login{    width: 122px; padding: 7px 0;}
+	.submit_wrap .forgot{    padding: 12px 0 7px;}
+}

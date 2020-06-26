@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+body{
+    margin: 0px;
+    padding:0;
+    background-color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mar0{ margin: 0px;}
+.mar15{ margin-bottom: 15px; margin-top: 15px;}
+.marb15{ margin-bottom: 15px;}
+.mart15{ margin-top: 15px;}
+.marl20{ margin-left: 20px;}
+.padtb15{ padding-top: 15px; padding-bottom: 15px;}
+.cslabel{padding: 10px; font-size: 18px; text-align: left; display: inherit; white-space: normal;}
+.bg1{background: rgba(204, 204, 204, 0.21);}
+
+
+.alert-info .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+    background: #000;
+}
+.alert-info .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+.alert-info {
+    color: #31708f !important;
+    background-color: #d9edf7 !important;
+    border-color: #bce8f1 !important;
+    position: relative;
+    margin-bottom: 0px !important;
+}
+.collapse-head-wrraper i{
+    position: absolute;
+    right: 7px;
+    top: 13px;
+    color: white;
+    background: #31708f;
+    border: 0;
+    padding: 4px;
+    font-size: 10px;
+}
+.panel-collapse{
+    padding: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.entry-date-wrapper{
+    display: inline-flex;
+}
+.entry-date-wrapper label{
+    float: left;
+    display: inline-flex;
+}
+.entry-date-wrapper input[type="text"]{
+    float: left;
+    width: 98px;
+    border: 0;
+    padding: 0px 10px;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+@media (min-width: 768px){
+
+
+}
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 767px){
+
+}
+
+
+@media (max-width: 568px){
+
+}

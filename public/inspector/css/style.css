@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+body{
+    margin: 0px;
+    padding:0;
+    background-color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.row>div[class*="col-"] {
+  /*padding: 0px;*/
+  border: 1px solid #000;
+  margin-left: -1px; margin-top: -1px;
+}
+.row>div[class*="col-"]:first-child{ margin-left: 0px;}
+.block{ display: block;}
+.inline-block{ display: inline-block;}
+
+.left{ float: left;}
+.right{ float: right;}
+.font13{ font-size: 13px;}
+.font12{ font-size: 12px;}
+
+/*BORDER STYLE*/
+.border-right{border-right: 0px!important;}
+.border-left{border-left: 0px!important;}
+.border-top{border-top: 0px!important;}
+.border-bottom{border-bottom: 0px!important;}
+.border-none{ border: 0px!important;}
+
+.border-b{border-bottom: 1px solid #000!important;}
+
+.pad0{padding: 0px;}
+.pad4{padding: 0 4px;}
+.pad5{padding: 0 5px;}
+.padL15{ padding-left: 15px;}
+.padAll15{ padding:15px; }
+/*MARGIN STYLE*/
+.ml{margin-left: -2px!important;}
+.mt{ margin-top: 0px!important}
+ p{ margin: 5px 0;}
+
+
+label{ margin: 0px; padding: 5px 0;}
+input{width: 100%; border: none; outline: none;}
+input[type=checkbox], input[type=radio]{ width: 15px;}
+textarea{ width: 100%; height: 50px; resize:none; border: none; outline: none;}
+
+
+
+@media (min-width: 768px){
+
+
+}
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 767px){
+
+}
+
+
+@media (max-width: 568px){
+
+}
